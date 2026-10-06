@@ -1,0 +1,64 @@
+header{
+    background-color: black;
+    color: aliceblue;
+    height: 100px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    font-size: larger;
+    list-style-type: none;
+}
+nav ul li{
+    margin: 0 15px;
+
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: aliceblue;
+}
+nav ul li a:hover{
+    color: black;
+}
+#Home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.right img{
+    height: 25%;
+    width: 25%;
+    margin: 3px 800px;
+    border-radius: 100px;
+}
+span{
+    color: crimson;
+    font-size: xx-large; 
+}
+.heading{
+    font-size: larger;
+}
+.heading2{
+    font-size: larger;
+}
+h2{
+    color: black;
+    font-weight: 1000;
+    font-size: 2rem;
+}
+.projects{
+    display: flex;
+    background-color: black;
+    font-size: large;
+    color: aliceblue;
+}
